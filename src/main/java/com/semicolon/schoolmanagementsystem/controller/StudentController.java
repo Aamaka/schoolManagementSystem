@@ -1,2 +1,4 @@
-package com.semicolon.schoolmanagementsystem.controller;public class StudentController {
+package com.semicolon.schoolmanagementsystem.controller;
+
+public class StudentController {
 }
