@@ -23,7 +23,7 @@ public class Staffs {
     private String phoneNumber;
     private String address;
     private String email;
-    private String gender;
+    private Gender gender;
     private int age;
     private StaffType type;
 
