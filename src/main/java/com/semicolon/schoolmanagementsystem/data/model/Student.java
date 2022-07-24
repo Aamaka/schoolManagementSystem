@@ -39,7 +39,7 @@ public class Student {
     private String dob;
     private String password;
 
-//    @JoinColumn(name = "subject_id", referencedColumnName ="id",nullable = false)
-//    @ManyToOne(optional = false, fetch = FetchType.EAGER)
-//    private Subject subject;
+    @JoinColumn(name = "subject_id", referencedColumnName ="id",nullable = false)
+    @ManyToOne(optional = false, fetch = FetchType.EAGER)
+    private Subject subject;
 }
